@@ -12,18 +12,25 @@ html, body{
     font-style: oblique;
     padding : 5px;
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 button{
     border-radius: 10px;
     background-color: lightgreen;
+    border-style: double;
+    height: 8em;
+    width: 15em;
 }
 .boxButons{
     margin-right : 5px;
     display : flex;
     flex-direction : column;
     justify-content: space-evenly;
+    /*border-style: double;*/
+    padding-left:30px;
+    padding-right:30px;
 }
 
 .boxGrid{
@@ -32,7 +39,7 @@ button{
     width: 60%;
     border-style: solid;
     border-color: lightblue;
-    height: 20em;
+    height: 60em;
 }
 
 .cellGrid{
